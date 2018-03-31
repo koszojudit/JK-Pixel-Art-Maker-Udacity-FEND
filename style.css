@@ -1,0 +1,192 @@
+#header {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+#wrapper {
+  font-family: American Typewriter, sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #6E6E6E;
+  margin: 0 auto;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#container {
+  text-align: left;
+}
+
+.column {
+  float: left;
+  display: inline-block;
+}
+
+h1	{
+  color: #000000;
+  font-size: 3em;
+  font-weight: normal;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h2	{
+  color: #999999;
+  font-size: 1em;
+  font-weight: normal;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+h3	{
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#gridSettings {
+  margin-bottom: 2em;
+}
+
+.warning {
+  font-size: 0.8em;
+  background-color: #FFAB91;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  color: #E64A19;
+}
+
+.invisible {
+  display: none;
+}
+
+#tools {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+#canvas {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 2em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #9B9B9B;*/
+  box-shadow: inset 1px 1px 0 #6B6B6B;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+
+tr {
+  height: 1.25em;
+}
+
+
+td {
+  width: 1.25em;
+  height: 1.25em;
+  background-color: #fff;
+}
+
+.grid-no-border {
+  border: none;
+  box-shadow: none;
+}
+
+input {
+  font-family: American Typewriter, sans-serif;
+  padding: 0.25em;
+}
+
+button {
+  color: #373737;
+  background-color: white;
+  font-family: American Typewriter, sans-serif;
+  font-weight: normal;
+  font-size: 0.9em;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
+
+.button-active {
+  color: white;
+  background-color: #373737;
+}
+
+.colorButton {
+  width: 2.5em;
+  height: 2.5em;
+  display: inline-block;
+  margin: 0.2em 0.2em;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.eraseButton {
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0.2em 0.2em;
+  padding: 1em;
+  border: 1px solid #9B9B9B;
+  cursor: pointer;
+}
+
+#fillImage {
+  margin-top: 1em;
+}
+
+#colorPicker {
+  width: 2.5em;
+  height: 2.5em;
+  vertical-align: middle;
+  margin-left: 1em;
+}
+
+.paletteRow {
+  margin-bottom: 0.25em;
+}
+
+.aubergine1 { background-color: #CD7FAE; }
+.aubergine2 { background-color: #C46AA0; }
+.aubergine3 { background-color: #BB5592; }
+.aubergine4 { background-color: #B24084; }
+.aubergine5 { background-color: #A92B76; }
+
+.red1 { background-color: #FFAB91; }
+.red2 { background-color: #FF8A65; }
+.red3 { background-color: #FF5722; }
+.red4 { background-color: #FF5722; }
+.red5 { background-color: #E64A19; }
+
+.orange1 { background-color: #FFDCA7; }
+.orange2 { background-color: #FFC876; }
+.orange3 { background-color: #FFB13D; }
+.orange4 { background-color: #FF9800; }
+.orange5 { background-color: #E07800; }
+
+.green1 { background-color: #C1E4C3; }
+.green2 { background-color: #9FD4A1; }
+.green3 { background-color: #77C27A; }
+.green4 { background-color: #4CAF50; }
+.green5 { background-color: #429747; }
+
+.turquise1 { background-color: #B2EBF2; }
+.turquise2 { background-color: #80DEEA; }
+.turquise3 { background-color: #4DD0E1; }
+.turquise4 { background-color: #00BCD4; }
+.turquise5 { background-color: #0097A7; }
+
+.white { background-color: #ffffff; }

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Udacity Pixel Art Maker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+    	  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+
+    <body>
+      <div id="wrapper">
+
+        <div id="header">
+          <h1>Pixel Art Maker</h1>
+          <h2>- a Udacity project by Judit Kószó - </h2>
+        </div>
+
+        <div id="container">
+
+          <div id="leftColumn" class="column">
+
+            <div id="gridSettings">
+              <h3>Grid settings</h3>
+              <p>Grid Width:
+                <input type="number" id="inputWidth" min="1" max="30" value="20">
+              </p>
+
+              <p>Grid Height:
+                <input type="number" id="inputHeight" min="1" max="30" value="20">
+              </p>
+              <div id="gridSizeWarning" class="warning invisible">Maximum grid size is 30x30.</div>
+              <p>
+                <button id="newGrid" type="button">Generate new grid</button>
+              </p>
+            </div>
+
+            <div id="tools">
+              <h3>Tools</h3>
+              <p>Left click to draw on canvas.</p>
+              <p>Grid border:
+                <button type="button" id="gridOn" class="button-active">On</button>
+                <button type="button" id="gridOff">Off</button>
+              </p>
+            </div>
+
+          </div>
+
+          <div id="canvas" class="column">
+            <table id="grid">
+        	</table>
+          </div>
+
+          <div id="colors" class="column">
+            <h3>Color Palette</h3>
+            <p>
+              Pick a color:
+              <input id="colorPicker" type="color" value="black">
+            </p>
+
+            <div class="paletteRow">
+              <button class="eraseButton colorButton white"></button>
+            </div>
+
+            <div class="paletteRow">
+              <button class="colorButton aubergine1"></button>
+              <button class="colorButton aubergine2"></button>
+              <button class="colorButton aubergine3"></button>
+              <button class="colorButton aubergine4"></button>
+              <button class="colorButton aubergine5"></button>
+            </div>
+
+            <div class="paletteRow">
+              <button class="colorButton red1"></button>
+              <button class="colorButton red2"></button>
+              <button class="colorButton red3"></button>
+              <button class="colorButton red4"></button>
+              <button class="colorButton red5"></button>
+            </div>
+
+            <div class="paletteRow">
+              <button class="colorButton orange1"></button>
+              <button class="colorButton orange2"></button>
+              <button class="colorButton orange3"></button>
+              <button class="colorButton orange4"></button>
+              <button class="colorButton orange5"></button>
+            </div>
+
+            <div class="paletteRow">
+              <button class="colorButton green1"></button>
+              <button class="colorButton green2"></button>
+              <button class="colorButton green3"></button>
+              <button class="colorButton green4"></button>
+              <button class="colorButton green5"></button>
+            </div>
+
+            <div class="paletteRow">
+              <button class="colorButton turquise1"></button>
+              <button class="colorButton turquise2"></button>
+              <button class="colorButton turquise3"></button>
+              <button class="colorButton turquise4"></button>
+              <button class="colorButton turquise5"></button>
+            </div>
+
+            <button type="button" id="fillImage">Fill image with chosen color</button>
+
+          </div>
+
+        </div>
+      </div>
+
+    </body>
+
+</html>
